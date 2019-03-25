@@ -1,8 +1,19 @@
 # tcpdump
 
-[![Build Status](https://travis-ci.org/the-tcpdump-group/tcpdump.svg?branch=master)](https://travis-ci.org/the-tcpdump-group/tcpdump)
+Please note that this version of tcpdump has been modified to parse the ETSI's ITS-G5 CAMs as per the following paper:
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/the-tcpdump-group/tcpdump?branch=master&svg=true)](https://ci.appveyor.com/project/guyharris/tcpdump)
+```    
+@INPROCEEDINGS{R0, 
+	author = {{Tassi}, Andrea and {Mavromatis}, Ioannis and {Piechocki}, Robert and
+         {Nix}, Andrew and {Compton}, Christian and {Poole}, Tracey and
+         {Schuster}, Wolfgang},
+	booktitle={Proc. of IEEE VTC 2019-Spring}, 
+	title = "{{Agile Data Offloading over Novel Fog Computing Infrastructure for CAVs}}", 
+	address={Kuala Lumpur, ML},
+	year={2019}, 
+	month=apr,
+}
+```
 
 To report a security issue please send an e-mail to security@tcpdump.org.
 
